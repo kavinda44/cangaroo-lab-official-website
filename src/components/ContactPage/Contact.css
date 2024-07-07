@@ -8,9 +8,11 @@
     padding: 20px;
     position: relative;
     flex-direction: row; 
+    /* border: 1px solid white; */
+    
   }
   
-  .image-container {
+  .image-container2 {
     flex: 1; 
     max-width: 40%;
     display: flex;
@@ -96,7 +98,7 @@
     height: 120px;
   }
   
-  button {
+  .con_button {
     width: 100%;
     padding: 15px;
     background: #000;
@@ -109,7 +111,7 @@
     
   }
   
-  button:hover {
+  .con_button:hover {
     background: #444;
   }
   

@@ -137,7 +137,7 @@ const Contact = () => {
 
   return (
     <div className="Container">
-      <div className="image-container">
+      <div className="image-container2">
         <img className="con" src={conT} alt="" />
       </div>
 
@@ -178,7 +178,7 @@ const Contact = () => {
                 <span className="error">{errors.message}</span>
               )}
             </div>
-            <button type="submit">Send</button>
+            <button type="submit" className="con_button">Send</button>
             <div className="register-link">
               <p>
                 <a href="/">Back to Home</a>
