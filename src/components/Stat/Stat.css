@@ -1,0 +1,40 @@
+.mainstatwrap{
+
+    background: rgb(0, 0, 0);
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 53%, rgba(60,59,57,1) 100%); */
+    color: white;
+    z-index: 1;
+    position: relative;
+    margin-top: 50PX;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+
+}
+/* .main-container{
+    justify-content: space-between;
+    align-items: flex-end;
+} */
+
+
+
+  .stats1{
+    width: 35%;
+    position: absolute;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+  }
+
+  .stat1>:nth-child(1)
+  {
+      font-size: 2rem;
+  }
+  .stat1>:nth-child(1)>:last-child{
+      color: orange;
+  }

@@ -1,0 +1,131 @@
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #000 50%, #F2B236 50%);
+    padding: 20px;
+    position: relative;
+    flex-direction: row; 
+  }
+  
+  .image-container {
+    flex: 1; 
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .con {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper2 {
+    flex: 1; 
+    background: rgba(242, 178, 54, 0.8); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    border: 3px solid #000;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .wrapper2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .form-box {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .form-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #000;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+    position: relative;
+    
+  }
+  
+  .input-box input,
+  .input-box textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    background: transparent; 
+    color: #000;
+    transition: all 0.3s ease;
+  }
+  
+  .input-box input:focus,
+  .input-box textarea:focus {
+    border-color: #000;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-box textarea {
+    resize: none;
+    height: 120px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background: #000;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    color: #F2B236;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    
+  }
+  
+  button:hover {
+    background: #444;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .register-link p a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .register-link p a:hover {
+    color: #444;
+  }
+

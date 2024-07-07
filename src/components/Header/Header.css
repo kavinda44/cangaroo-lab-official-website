@@ -1,0 +1,32 @@
+.h-wrapper{
+    background: black;
+    color: white;
+
+}
+.h-container{
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 1 rem;
+    color: var(--secondary);
+}
+.h-menu{
+    gap: 2rem;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+    color: #F2B236;
+}
+.button{
+    font-weight: 500 ;
+    padding: 0.6rem 1.4rem;
+    color: black;
+    background: #F2B236;
+    border: none;
+    border-radius: 0.6rem;
+    transition: all 300ms ease-in;
+}
+.button:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    color: black;
+}

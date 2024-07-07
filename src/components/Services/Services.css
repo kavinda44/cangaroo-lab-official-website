@@ -1,0 +1,154 @@
+.servicemain{
+
+    background: rgb(0,0,0);
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 38%, rgb(48, 46, 46) 100%); */
+    color: white;
+    z-index: 1;
+    position: absolute;
+    margin-top: 0PX;
+    height: 700px;
+    width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: black; 
+}
+
+.container{
+    margin-top: 50px;
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    max-width:300px;
+    background-color: #000000;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid#000;
+}
+.box:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(2deg,2deg);
+    z-index: -1;
+
+
+}
+
+.box:nth-child(1)::before{
+    background: linear-gradient(315deg, #F2B236, #e6c719);
+}
+.box:nth-child(3).box:before{
+    background: linear-gradient(315deg, #F2B236, #e6c719);
+}
+
+.box:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgb(255,255,255,0);
+
+}
+.content{
+    position: relative;
+    padding: 20px;
+    z-index: 2;
+    
+
+}
+
+.content h2 {
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+    font-size: 8em;
+    color: rgb(48, 49, 49);
+    transition: 0.5s;
+    z-index: -2;
+    opacity: 50%;
+    
+}
+.box:hover .content h2{
+    top: -140px;
+    color: #F2B236;
+    opacity: 100%;
+}
+.content h3 {
+    margin:  0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.content p {
+    margin: 0;
+    padding: 0;
+
+}
+.content a {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+
+
+}
+.box:hover .content a {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.content a :hover{
+    color: #000;
+    background: #fff;
+
+}
+.serv{
+    z-index: 1;
+}
+
